@@ -1,0 +1,33 @@
+
+# Core LangChain + agent orchestration
+langchain
+langchain-core
+langchain-community
+langgraph
+
+# Groq LLM integration (replaces OpenAI)
+langchain-groq
+
+# Web search
+langchain-tavily
+
+
+# Local embeddings (no paid embedding API)
+langchain-huggingface
+sentence-transformers
+
+# Web scraping and HTTP
+beautifulsoup4
+requests
+lxml
+aiohttp
+html5lib
+
+# Configuration, data, and utilities
+python-dotenv
+pandas
+tiktoken
+rich
+tenacity
+orjson
+pydantic

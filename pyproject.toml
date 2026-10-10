@@ -1,0 +1,17 @@
+[project]
+name = "multi-agent-searchable-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "streamlit>=1.65.0",
+    "tavily-python>=0.8.5",
+]
+
+[project.scripts]
+multi-agent-searchable-system = "multi_agent_searchable_system:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"

@@ -1,0 +1,25 @@
+
+# Secrets
+.env
+.env.*
+
+# Allow a safe example environment file
+!.env.example
+
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE files
+.vscode/
+.idea/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Generated research outputs (optional)
+research_outputs/
